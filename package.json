@@ -1,0 +1,22 @@
+{
+  "name": "express_fs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && `exit 1",
+    "start": "nodemon app.js",
+    "dev": "cross-env NODE_OPTIONS='--inspect' nodemon app.js"
+  },
+  "author": "jijin",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.7"
+  }
+ 
+}
